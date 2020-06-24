@@ -40,7 +40,7 @@ if( detectIpRange() ){
 ##### Detect by Hostname
 ```php
 
-$ip = file_get_contents("http://ipecho.net/plain");
+$ip = getUserIp();
 $hostname = gethostbyaddr($ip);
 $agent = $request->server('HTTP_USER_AGENT');
 
