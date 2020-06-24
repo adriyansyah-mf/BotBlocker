@@ -21,7 +21,6 @@ Bot Blocker is a PHP helper to help you detects bots in your website.
         "psr-4": {
             "App\\": "app/"
         },
-        //add this below to your composer.json as value of autoload object.
         "files" : ["app/bot_blocker.php"]
     }
 ```
