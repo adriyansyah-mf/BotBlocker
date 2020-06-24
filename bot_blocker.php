@@ -1,8 +1,7 @@
 <?php
 
-/** Bot Blocker by Muhammad Fauzan
+/** Bot Helper by Muhammad Fauzan
  *  Follow me on Instagram : instagram.com/fauzan121002
- *  github.com/fauzan121002/botblocker
  */
 
 /**
@@ -150,4 +149,20 @@ function detectReferrer(){
     else{
         return false;
     }     
+}
+
+/**
+ * getUserIp
+ *
+ * @return void
+ */
+function getUserIp(){
+    if(!empty($_SERVER['HTTP_CLIENT_IP'])){
+        $ip = $_SERVER['HTTP_CLIENT_IP'];
+    }elseif(!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){
+        $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    }else{
+        $ip = $_SERVER['REMOTE_ADDR'];
+    }
+    return $ip;
 }

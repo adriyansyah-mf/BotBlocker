@@ -40,7 +40,7 @@ See the laravel setup introduction <a href="LARAVEL-INTRODUCTION.md">here</a>
 <?php 
     require_once('bot_blocker.php');
 
-    $ip = file_get_contents("http://ipecho.net/plain");
+    $ip = getUserIp();
     $hostname = gethostbyaddr($ip);
     $agent = $_SERVER['HTTP_USER_AGENT'];
 
