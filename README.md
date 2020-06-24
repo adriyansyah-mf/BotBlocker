@@ -62,7 +62,7 @@ See the laravel setup introduction <a href="LARAVEL-INTRODUCTION.md">here</a>
 ```
 
 ### License
-The JavaScript Load Image script is released under the <a href="LICENSE">LGPL License</a>.
+The Bot Blocker script is released under the <a href="LICENSE">LGPL License</a>.
 
 ### Credits
 * StackOverflow

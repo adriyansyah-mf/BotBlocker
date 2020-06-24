@@ -60,7 +60,7 @@ if( detectReferrer() ){
 ```
 
 ### License
-The JavaScript Load Image script is released under the <a href="LICENSE">LGPL License</a>.
+The Bot Blocker script is released under the <a href="LICENSE">LGPL License</a>.
 
 ### Credits
 * StackOverflow
