@@ -142,14 +142,14 @@ function detectReferrer(){
             if($refData['host'] !== $value) {
                 return false;
             }      
-            
-            return true;
-        }        
+        } 
+        return true;
     }
     else{
         return false;
     }     
 }
+
 
 /**
  * getUserIp
@@ -166,3 +166,4 @@ function getUserIp(){
     }
     return $ip;
 }
+
